@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+//#include <string.h>
 #include <math.h>
 #include <stdlib.h>
 
@@ -9,7 +9,7 @@ int main()
 {
     int a, b, i;
     scanf("%d\n%d", &a, &b);
-  	// Complete the code.
+
 if (a>=1 && b<=100){
   if (a>=1 || b<=9){
     for(int i=a;i<=9;i++){
