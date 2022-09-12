@@ -1,5 +1,5 @@
 #include <stdio.h>
-//#include <string.h>
+#include <string.h>
 #include <math.h>
 #include <stdlib.h>
 
@@ -9,10 +9,10 @@ int main()
 {
     int a, b, i;
     scanf("%d\n%d", &a, &b);
-
-if (a>=1 && b<=100){
+      // Complete the code.
+if (a>=1 && b<=1000000){
   if (a>=1 || b<=9){
-    for(int i=a;i<=9;i++){
+    for(int i=a;i<=9 && i<=b;i++){
 
          switch (i){
              case 1: printf("one\n");
@@ -27,7 +27,7 @@ if (a>=1 && b<=100){
              case 4: printf("four\n");
              break;
 
-             case 5: printf("five");
+             case 5: printf("five\n");
              break;
 
              case 6: printf("six\n");
@@ -43,10 +43,11 @@ if (a>=1 && b<=100){
              break;
              default:
                printf("Invalid number!\n");
+
          }
   }  }
 
- if(b>9){
+ if(b>=10){
       for(int i=10; i<=b;i++)
           {
           if(i>9 && i%2==0){printf("even\n");}
@@ -55,4 +56,3 @@ else{printf("Invalid Number!");}
       return 0;
 
 }
-
