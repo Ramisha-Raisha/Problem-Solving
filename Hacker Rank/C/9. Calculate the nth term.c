@@ -1,3 +1,13 @@
+/*There is a series,S, where the next term is the sum of pervious three terms. Given the first three terms of the series,a,b and c respectively, you have to output the nth term of
+the series using recursion.
+Consider the following steps:
+1. S(1) = 1
+2. S(2) = 2
+3. S(3) = 3
+4. S(4) = S(3)+S(2)+S(1)
+5. S(5) = S(4)+S(3)+S(2)*/
+
+Recursive method for calculating nth term is given below.
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
