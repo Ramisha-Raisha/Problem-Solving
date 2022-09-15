@@ -16,8 +16,11 @@ Constraints
  #number_of_students <=10^3
  #1<=marksi<=10^3 (where 0<= i< number_of_students)
  #gender = g or b
- ####Output Format
+
+
+ Output Format
   The output should contain the sum of all the aternate elements in marks as explained above.*/
+
 
 #include <stdio.h>
 #include <string.h>
